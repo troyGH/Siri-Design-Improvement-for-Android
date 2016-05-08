@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#eae7e7"
+    tools:context="theoterocompany.siritest.MainMenu">
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Siri"
+        android:id="@+id/Siri_switch"
+        android:background="#ffff"
+        android:textColor="#000"
+        android:checked="false"
+        android:textOff=" "
+        android:textOn=" "
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/Advanced_settings"
+        android:layout_alignEnd="@+id/Advanced_settings" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Language               English (United States) >"
+        android:id="@+id/Language"
+        android:background="#FFFF"
+        android:textColor="#000"
+        android:height="32dp"
+        android:autoText="false"
+        android:clickable="true"
+        android:gravity="center"
+        android:layout_above="@+id/Siri_voice"
+        android:layout_alignLeft="@+id/Siri_voice"
+        android:layout_alignStart="@+id/Siri_voice"
+        android:layout_alignRight="@+id/Siri_voice"
+        android:layout_alignEnd="@+id/Siri_voice" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" Siri Voice                     American (Female) >"
+        android:id="@+id/Siri_voice"
+        android:background="#FFFF"
+        android:textColor="#000"
+        android:height="30dp"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/Advanced_Text"
+        android:layout_alignEnd="@+id/Advanced_Text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Press and hold the home button to start speaking to Siri, then release the button when you are done."
+        android:id="@+id/Siri_Text"
+        android:textColor="#7a7676"
+        android:layout_below="@+id/Siri_switch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" Voice Feedback                               Always >"
+        android:id="@+id/Voice_Feedback"
+        android:background="#FFFF"
+        android:textColor="#000"
+        android:height="32dp"
+        android:gravity="center"
+        android:layout_below="@+id/Siri_voice"
+        android:layout_alignLeft="@+id/Siri_voice"
+        android:layout_alignStart="@+id/Siri_voice"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" My Info                                                     Me >"
+        android:id="@+id/My_Info"
+        android:background="#FFFF"
+        android:textColor="#000"
+        android:height="32dp"
+        android:gravity="center"
+        android:layout_below="@+id/Voice_Feedback"
+        android:layout_alignLeft="@+id/Voice_Feedback"
+        android:layout_alignStart="@+id/Voice_Feedback"
+        android:layout_alignRight="@+id/Voice_Feedback"
+        android:layout_alignEnd="@+id/Voice_Feedback" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Advanced Settings                                        >"
+        android:id="@+id/Advanced_settings"
+        android:background="#FFFF"
+        android:textColor="#000"
+        android:gravity="center"
+        android:height="32dp"
+        android:layout_below="@+id/Siri_Text"
+        android:layout_alignRight="@+id/Voice_Feedback"
+        android:layout_alignEnd="@+id/Voice_Feedback"
+        android:layout_marginTop="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="These settings contain the &quot;End&quot; command and &quot;Nevermind&quot; command for customizing when Siri should stop listening or cancel what you have said"
+        android:id="@+id/Advanced_Text"
+        android:textColor="#7a7676"
+        android:layout_below="@+id/Advanced_settings"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

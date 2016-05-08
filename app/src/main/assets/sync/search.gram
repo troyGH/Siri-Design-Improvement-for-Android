@@ -1,0 +1,16 @@
+#JSGF V1.0;
+
+grammar menu;
+
+<human> = human | human <key>;
+<a> = a <human>;
+<up> = up <a>;
+<makes> = makes <up>;
+<key> = end | nevermind;
+<lottery> = lottery | lottery <key>;
+<the> = the <lottery>;
+<win> = win <the>;
+<to> = to <win>;
+<question> = how <to> | what <makes>;
+
+public <searching> = search <question>;

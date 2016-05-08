@@ -1,0 +1,17 @@
+#JSGF V1.0;
+
+grammar menu;
+
+<contact> = mom | dad | sister;
+<body>  = hi | hello | goodbye | ;
+<end> = hi end | hello end | I will be at school end;
+<nevermind> = hi never mind | hello nevermind | I will be at school never mind;
+<searchable> = how to win the lottery | what makes up a human;
+<searchend> = how to win the lottery end | what makes up a human end;
+<searchnvm> = how to win the lottery nevermind | what makes up a human nevermind;
+
+<texting> = text <contact>;
+<calling> = call <contact>;
+<searching> = search (<searchable> | <searchend> | <searchnvm>);
+
+public <command> = <texting> | <calling> | <searching>;

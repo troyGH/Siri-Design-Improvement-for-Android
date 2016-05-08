@@ -1,0 +1,7 @@
+#JSGF V1.0;
+
+grammar menu;
+
+<contact> = mom | dad | sister | brother | john;
+
+public <calling> = call <contact>;

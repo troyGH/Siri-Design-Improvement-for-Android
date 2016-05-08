@@ -1,0 +1,8 @@
+#JSGF V1.0;
+
+grammar menu;
+
+<contact> = (mom | dad | sister) <body>;
+<body>  = hi | hello | goodbye | ;
+
+public <texting> = text <contact>;
