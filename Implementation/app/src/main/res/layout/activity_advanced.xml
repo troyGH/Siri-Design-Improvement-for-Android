@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#eae7e7"
+    tools:context="theoterocompany.siritest.Advanced">
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Allow &quot;Hey Siri&quot;"
+        android:id="@+id/Allow_Switch"
+        android:background="#FFFF"
+        android:textColor="#000"
+        android:checked="false"
+        android:textOff=" "
+        android:textOn=" "
+        android:layout_below="@+id/End_Text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="31dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" &quot;End&quot; Command"
+        android:id="@+id/End_Switch"
+        android:layout_alignParentTop="true"
+        android:background="#FFFF"
+        android:textColor="#000"
+        android:checked="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textOff=" "
+        android:textOn=" " />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" &quot;Nevermind&quot; Command"
+        android:id="@+id/Nevermind_Switch"
+        android:background="#FFFF"
+        android:textColor="#000"
+        android:checked="false"
+        android:textOff=" "
+        android:textOn=" "
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/Allow_Text"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="You can speak to Siri without pressing the home button by saying &quot;Hey Siri&quot; when connected to power."
+        android:id="@+id/Allow_Text"
+        android:textColor="#7a7676"
+        android:layout_below="@+id/Allow_Switch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="With the &quot;End&quot; command, let Siri know when you would like it to stop listening to your current question or command by saying &quot;finish&quot; at the end of your question or statement"
+        android:id="@+id/End_Text"
+        android:textColor="#7a7676"
+        android:layout_below="@+id/End_Switch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="With the &quot;Nevermind&quot; command, let Siri know when you would like it to restart listening to your question or command by saying &quot;never mind&quot; at the end of your question or statement"
+        android:id="@+id/Nevermind_Text"
+        android:textColor="#7a7676"
+        android:layout_below="@+id/Nevermind_Switch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

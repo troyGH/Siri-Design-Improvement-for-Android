@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\luiso_000\AndroidStudioProjects\ContinuousVoice\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\luiso_000\AndroidStudioProjects\ContinuousVoice\app\build\intermediates\pre-dexed\release\internal_impl-23.1.0-4a8d9938ef0cfb00a11d992f7f511bd6f3026e8e.jar" />
+    </item>
+    <item
+        jar="C:\Users\luiso_000\AndroidStudioProjects\ContinuousVoice\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="C:\Users\luiso_000\AndroidStudioProjects\ContinuousVoice\app\build\intermediates\pre-dexed\release\classes-64c2dd6090ec6eedacad395038769c7e24191b6b.jar" />
+    </item>
+    <item
+        jar="C:\Users\luiso_000\AndroidStudioProjects\ContinuousVoice\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\luiso_000\AndroidStudioProjects\ContinuousVoice\app\build\intermediates\pre-dexed\release\classes-f3aa94f1ae4566d043d12910cf4284a1800ebd84.jar" />
+    </item>
+    <item
+        jar="C:\Users\luiso_000\AndroidStudioProjects\ContinuousVoice\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="C:\Users\luiso_000\AndroidStudioProjects\ContinuousVoice\app\build\intermediates\pre-dexed\release\classes-fdb4848df9c1695f9185f7cae66a4838bf6f7c45.jar" />
+    </item>
+    <item
+        jar="C:\Users\luiso_000\AndroidStudioProjects\ContinuousVoice\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="C:\Users\luiso_000\AndroidStudioProjects\ContinuousVoice\app\build\intermediates\pre-dexed\release\classes-4b528f8d70083baf19415be420049b612f9df7c3.jar" />
+    </item>
+    <item
+        jar="C:\Users\luiso_000\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\luiso_000\AndroidStudioProjects\ContinuousVoice\app\build\intermediates\pre-dexed\release\support-annotations-23.1.0-cf90aed0f0a90451604e14f7815c8f736d0c1c63.jar" />
+    </item>
+
+</items>
