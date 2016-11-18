@@ -10,3 +10,6 @@ The Siri_Update.apk is the file used to intall the application on an Android dev
 
 An alternative is to use this link below. It is limited to 100 minutes use but it shows the project as if simulated on a phone.
 https://appetize.io/app/mzezmvdq2ywm6uag7wbxhj3prg
+
+#Screenshots
+To see how the application's prototype, go to Siri Screens Axure folder and click on the .html files.
