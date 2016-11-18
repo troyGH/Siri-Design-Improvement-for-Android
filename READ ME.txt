@@ -1,0 +1,12 @@
+For Axure screens,
+
+All html files for the screens are there. Start viewing the prototype from the main_screen.html.
+
+
+For Android Siri project
+
+The folder contains all the source code and everything to build the project in Android Studio.
+The Siri_Update.apk is the file used to intall the application on an Android device and run it if you wish to do so.
+
+An alternative is to use this link below. It is limited to 100 minutes use but it shows the project as if simulated on a phone.
+https://appetize.io/app/mzezmvdq2ywm6uag7wbxhj3prg
